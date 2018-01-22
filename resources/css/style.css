@@ -1,10 +1,12 @@
 body {
   font-family: Helvetica, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation {
-  background-image: url('../images/the-flatiron-building.png');
+  background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -33,11 +35,11 @@ h3 {
   color: white;
 }
 
-.process {
+.mainBlock {
   text-align: center;
 }
 
-.process h2 {
+.mainBlock h2 {
   font-size: 32px;
 }
 
