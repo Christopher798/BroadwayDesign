@@ -10,29 +10,39 @@
     <div class="navigation">
       <h1>Broadway Design</h1>
 
-      <p><a>Home</a></p>
-      <p><a>Process</a></p>
-      <p><a>Work</a></p>
-      <p><a>Team</a></p>
-      <p><a>Contact</a></p>
-    </div>
+      <p><a class="navlink" href="#home">Home</a></p>
+      <p><a class="navlink" href="#process">Process</a></p>
+      <p><a class="navlink" href="#work">Work</a></p>
+      <p><a class="navlink" href="#team">Team</a></p>
+      <p><a class="navlink" href="#contact">Contact</a></p>
+   </div>
 
     <!-- Business process -->
+    <!--ID and Class Selector: <div id="one" class="two"> ...</div> #one.two {...}-->
     <div class="process">
       <h2>Our Process</h2>
-      <img src="resources/images/identify.svg" alt="arrow"/>
-      <h3>Identity</h3>
-      <p>We focus on the most important details.</p>
-      <img src="resources/images/understand.svg" alt="circle"/>
-      <h3>Understand</h3>
-      <p>We study our projects inside and out.</p>
-      <img src="resources/images/execute.svg" alt="thick arrow"/>
-      <h3>Execute</h3>
-      <p>We put everything we have into our work.</p>
+
+      <div class="component">
+        <img src="resources/images/identify.svg" alt="arrow"/>
+        <h3>Identity</h3>
+        <p>We focus on the most important details.</p>
+      </div>
+
+      <div class="component">
+        <img src="resources/images/understand.svg" alt="circle"/>
+        <h3>Understand</h3>
+        <p>We study our projects inside and out.</p>
+      </div>
+
+      <div class="component">
+        <img src="resources/images/execute.svg" alt="thick arrow"/>
+        <h3>Execute</h3>
+        <p>We put everything we have into our work.</p>
+      </div>
     </div>
 
     <!--Small Ribbon-->
-    <div>
+    <div class="navigation">
       <h2>Designed in New York</h2>
     </div>
 
@@ -61,14 +71,14 @@
     </div>
 
     <!--Footer Section -->
-    <div>
+    <div class="footer">
       <p>
         &copy; Broadway 2018
-        <a>Home</a>
-        <a>About</a>
-        <a>Work</a>
-        <a>Team</a>
-        <a>Contact</a>
+        <a class="navlink" href="#home">Home</a>
+        <a class="navlink" href="#about">About</a>
+        <a class="navlink" href="#work">Work</a>
+        <a class="navlink" href="#team">Team</a>
+        <a class="navlink" href="#contact">Contact</a>
       </p>
     </div>
 
